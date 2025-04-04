@@ -15,7 +15,8 @@ const FILE_LOADER = 'file-loader'
 const SERVER_URL = /http:\/\/localhost:9009/g
 const FRONTEND_PORT = 3003
 
-const DIST_PATH = 'dist'
+
+const DIST_PATH = 'build'
 const PUBLIC_PATH = IS_DEV ? '/' : './'
 const INDEX_HTML_PATH = './frontend/index.html'
 const INDEX_JS_PATH = './frontend/index.js'
